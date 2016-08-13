@@ -1,0 +1,83 @@
+.contents {
+  margin: auto;
+  padding-top: 100px;
+  width: 500px;
+}
+
+.header {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+a:link, .header a:visited {
+  font-family: sans-serif;
+  color: #737373;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: sans-serif;
+  color: #737373;
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
+.link {
+  padding-left: 15px;
+  float: left;
+}
+
+.search {
+  width: 480px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.button-container {
+  width: 500px;
+  text-align: center;
+}
+
+.buttons {
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+  color: #757575;
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.buttons:hover {
+  background-color: #F4F4F4;
+  border: 1px solid #000;
+  color: #000;
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.footer {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+#right {
+  float: right;
+}
