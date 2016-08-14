@@ -70,14 +70,16 @@ a:hover {
 
 .left {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .right {
   float: right;
-  width: 50%;
+  margin-right: 50px; /* this doesnt seem like the best way to do it */
+  width: 40%;
 }
 
 #right {
   float: right;
+  text-align: right;
 }
